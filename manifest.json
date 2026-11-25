@@ -1,0 +1,7 @@
+{
+    "name": "NonCombatStamina",
+    "description": "Unlimited stamina out of combat for running, jumping, sneaking, riding your mount, and using tools, with per-action toggles. Improved jump detection for uneven terrain. Optional server config sync.",
+    "version_number": "1.0.1",
+    "website_url": "https://github.com/TimeHorizonDev/NonCombatStamina",
+    "dependencies": []
+}

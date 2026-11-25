@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <!-- Copy this file to Environment.props and set the paths for your machine.
+       Environment.props is git-ignored and is imported by NonCombatStamina.csproj when present.
+       You can also override any property on the MSBuild command line, e.g. /p:ValheimDir=D:\Games\Valheim -->
+  <PropertyGroup>
+    <ValheimDir>C:\Path\To\Valheim</ValheimDir>
+    <!-- Optional; these are derived from ValheimDir if omitted:
+    <ValheimManaged>$(ValheimDir)\valheim_Data\Managed</ValheimManaged>
+    <ValheimPublicized>$(ValheimManaged)\publicized_assemblies</ValheimPublicized>
+    <BepInExCore>$(ValheimDir)\BepInEx\core</BepInExCore>
+    <UnityCorlib>$(ValheimDir)\unstripped_corlib</UnityCorlib>
+    -->
+  </PropertyGroup>
+</Project>
